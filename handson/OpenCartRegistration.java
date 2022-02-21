@@ -15,11 +15,11 @@ public class OpenCartRegistration {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("MubasheerG");
-		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Mubasheer");
-		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("G");
-		driver.findElement(By.name("email")).sendKeys("mubasheer1401@gmail.com");
-		driver.findElement(By.name("password")).sendKeys("qwerty@123");
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("DharaniTamil");
+		driver.findElement(By.xpath("//input[@name='firstname']")).sendKeys("Dharani");
+		driver.findElement(By.xpath("//input[@name='lastname']")).sendKeys("T");
+		driver.findElement(By.name("email")).sendKeys("dharanitamil87847@gmail.com");
+		driver.findElement(By.name("password")).sendKeys("dharni@12345");
 
 		driver.close();
 
