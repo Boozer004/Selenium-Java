@@ -18,19 +18,19 @@ public class SignUpForm {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-		driver.findElement(By.name("UserFirstName-N2x8")).sendKeys("Mubasheer");
-		driver.findElement(By.name("UserLastName")).sendKeys("G");
-		driver.findElement(By.name("UserEmail")).sendKeys("mubasheer1401@gmail.com");
+		driver.findElement(By.name("UserFirstName-N2x8")).sendKeys("Dharani");
+		driver.findElement(By.name("UserLastName")).sendKeys("T");
+		driver.findElement(By.name("UserEmail")).sendKeys("dharanitamil87847@gmail.com");
 		driver.findElement(By.name("CompanyName")).sendKeys("TESTLEAF");
-		driver.findElement(By.name("UserPhone")).sendKeys("9791843028");
+		driver.findElement(By.name("UserPhone")).sendKeys("6379442032");
 
 		WebElement userTitle = driver.findElement(By.name("UserTitle"));
 		Select tap = new Select(userTitle);
-		tap.selectByIndex(5);
+		tap.selectByIndex(4);
 
 		WebElement CompanyEmployees = driver.findElement(By.name("CompanyEmployees"));
 		Select sel1 = new Select(CompanyEmployees);
-		sel1.selectByIndex(2);
+		sel1.selectByIndex(3);
 
 		driver.findElement(By.name("CompanyCountry")).sendKeys("India");
 		driver.findElement(By.xpath("//select[@name='CompanyState']")).sendKeys("Tamil_Nadu");
