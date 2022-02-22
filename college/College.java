@@ -2,15 +2,15 @@ package org.college;
 
 public class College extends Department {
 	public void collegeName() {
-		System.out.println("College name is Madras Institute of Technology");
+		System.out.println("College name is Dhanalakshmi Srinivasa College");
 	}
 
 	public void collegeCode() {
-		System.out.println("College id is 0004");
+		System.out.println("College id is 1035");
 	}
 
 	public void collegeRank() {
-		System.out.println("College rank is 101");
+		System.out.println("College rank is 54");
 	}
 
 	public static void main(String[] args) {
